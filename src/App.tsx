@@ -8,6 +8,7 @@ function App() {
         titulo="Seja Bem Vinde"
         texto="Expresse aqui seus pensamentos e opniões"
       ></Home>
+     
     </>
   );
 }
