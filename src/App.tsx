@@ -4,6 +4,7 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import Cadastro from "./pages/cadastro/Cadastro";
+import Login from "./pages/login/Login";
 
 function App() {
   return (
@@ -12,12 +13,13 @@ function App() {
         <Navbar></Navbar>
         <div className="min-h-[80vh]">
           <Routes>
-            {/* <Route path="/" element={<Home titulo="Seja Bem Vinde" />}></Route>
+            <Route path="/" element={<Login />}></Route>
             <Route
               path="/home"
               element={<Home titulo="Seja Bem Vinde" />}
-            ></Route> */}
-            <Route path="/" element={<Cadastro />}></Route>
+            ></Route>
+            <Route path="/cadastro" element={<Cadastro />}></Route>
+            <Route path="/login" element={<Login />}></Route>
           </Routes>
         </div>
 
