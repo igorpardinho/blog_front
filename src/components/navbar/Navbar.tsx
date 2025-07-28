@@ -9,7 +9,11 @@ function Navbar() {
             Blog Pessoal
           </Link>
           <div className="flex gap-4">
-            Postagens Temas <Link to="/cadastro">Cadastro</Link> Tema Perfil
+            Postagens
+            Temas
+            <Link to="/cadastro">Cadastro</Link>
+            Tema 
+            Perfil
             Sair
           </div>
         </div>
